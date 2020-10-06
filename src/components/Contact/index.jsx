@@ -1,20 +1,19 @@
-import React from "react"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { Col } from "@bootstrap-styled/v4"
+import React from 'react';
+import { Col } from '@bootstrap-styled/v4';
 import {
   Container,
   StyledLink,
   StyledRow,
   StyledCol,
   WrapperLink,
-} from "./style"
+} from './style';
 
 const Contact = () => (
   <Container>
     <StyledRow>
       <WrapperLink href="mailto:zalani.piyush@gmail.com" target="_blank">
         <StyledCol sm="2">
-          <FontAwesomeIcon icon="envelope" />
+          <i className="mdi-content-mail small" />
         </StyledCol>
       </WrapperLink>
       <Col sm="9">
@@ -29,7 +28,7 @@ const Contact = () => (
         target="_blank"
       >
         <StyledCol sm="2">
-          <FontAwesomeIcon icon={["fab", "linkedin"]} />
+          <i className="fa fa-linkedin" />
         </StyledCol>
       </WrapperLink>
       <Col sm="9">
@@ -44,7 +43,7 @@ const Contact = () => (
     <StyledRow>
       <WrapperLink href="https://github.com/Piyush-Zalani" target="_blank">
         <StyledCol sm="2">
-          <FontAwesomeIcon icon={["fab", "github"]} />
+          <i className="fa fa-github" />
         </StyledCol>
       </WrapperLink>
       <Col sm="9">
@@ -54,6 +53,6 @@ const Contact = () => (
       </Col>
     </StyledRow>
   </Container>
-)
+);
 
-export default Contact
+export default Contact;

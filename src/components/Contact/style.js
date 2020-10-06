@@ -1,11 +1,11 @@
-import styled from "styled-components"
-import { Col, Row } from "@bootstrap-styled/v4"
+import styled from 'styled-components';
+import { Row } from '@bootstrap-styled/v4';
 
 const Container = styled.div`
   margin-left: 10%;
   margin-right: 10%;
   height: 100vh;
-`
+`;
 
 const StyledRow = styled(Row)`
   padding: 10px;
@@ -15,12 +15,12 @@ const StyledRow = styled(Row)`
     text-align: center;
     margin: 0 auto;
   }
-`
+`;
 
-const StyledCol = styled(Col)`
+const StyledCol = styled.div`
   font-size: 1.6rem;
   line-height: 55.5px;
-`
+`;
 
 const WrapperLink = styled.a`
   overflow: hidden;
@@ -51,7 +51,7 @@ const WrapperLink = styled.a`
   @media (max-width: 600px) {
     margin: 0 auto;
   }
-`
+`;
 
 const StyledLink = styled.a`
   &:hover {
@@ -72,6 +72,8 @@ const StyledLink = styled.a`
   color: #009688;
   text-decoration: none;
   font-weight: 800;
-`
+`;
 
-export { Container, StyledCol, StyledRow, StyledLink, WrapperLink }
+export {
+  Container, StyledCol, StyledRow, StyledLink, WrapperLink,
+};

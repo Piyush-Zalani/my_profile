@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components';
 
 const Card = styled.div`
   position: relative;
@@ -16,7 +16,7 @@ const Card = styled.div`
   position: relative;
   height: 400px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-`
+`;
 
 const Image = styled.img`
   -webkit-border-radius: 2px 2px 0 0;
@@ -30,11 +30,11 @@ const Image = styled.img`
   bottom: 0;
   width: 100%;
   height: inherit;
-`
+`;
 
 const CardImage = styled.div`
   height: 200px;
-`
+`;
 
 const CardContent = styled.div`
   padding: 20px;
@@ -48,7 +48,7 @@ const CardContent = styled.div`
   padding-bottom: 30px;
   overflow: hidden;
   height: 100%;
-`
+`;
 
 const Title = styled.span`
   color: #008073;
@@ -56,20 +56,20 @@ const Title = styled.span`
   font-weight: 300;
   line-height: 2.5rem;
   cursor: pointer;
-`
+`;
 
 const Description = styled.p`
   padding: 5px 0 0;
   margin: 0;
   color: inherit;
-`
+`;
 
 const Container = styled.div`
   width: 90%;
   padding: 0 1.5rem;
   margin: 0 auto;
   max-width: 1280px;
-`
+`;
 
 const CardRevel = styled.div`
   padding: 20px;
@@ -83,8 +83,8 @@ const CardRevel = styled.div`
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  transform: ${props => `translateY(${props.transform ? "-100%" : "0px"})`};
-`
+  transform: ${(props) => `translateY(${props.transform ? '-100%' : '0px'})`};
+`;
 
 const CardAction = styled.div`
   position: absolute;
@@ -93,7 +93,44 @@ const CardAction = styled.div`
   right: 0;
   border-top: 1px solid rgba(160, 160, 160, 0.2);
   padding: 20px;
-`
+`;
+
+const StyledLink = styled.a`
+  overflow: hidden;
+  user-select: none;
+  will-change: opacity, transform;
+  background-color: #795548;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  margin-bottom: 15px;
+  -moz-border-radius: 2px;
+  text-transform: uppercase;
+  border: none;
+  outline: 0;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  line-height: 37px;
+  padding: 0;
+  border-radius: 50%;
+  background-clip: padding-box;
+  transition: 0.3s;
+  cursor: pointer;
+  width: 55.5px;
+  height: 55.5px;
+  font-size: 1.6rem;
+  line-height: 55.5px;
+  @media (max-width: 600px) {
+    margin: 0 auto;
+  }
+`;
+
+const CardTitle = styled.span`
+  font-size: 24px;
+`;
 
 export {
   CardContent,
@@ -105,4 +142,6 @@ export {
   Description,
   Title,
   Image,
-}
+  StyledLink,
+  CardTitle,
+};

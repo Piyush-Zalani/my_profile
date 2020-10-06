@@ -1,31 +1,6 @@
-import React from "react"
-import { Helmet } from "react-helmet"
-import { library } from "@fortawesome/fontawesome-svg-core"
-import { fab } from "@fortawesome/free-brands-svg-icons"
-import {
-  faChartBar,
-  faChartLine,
-  faEnvelope,
-  faExternalLinkAlt,
-  faFileAlt,
-  faGraduationCap,
-  faTasks,
-  faUserAlt,
-} from "@fortawesome/free-solid-svg-icons"
-
-import Layout from "../components/Layout"
-
-library.add(
-  fab,
-  faEnvelope,
-  faUserAlt,
-  faChartLine,
-  faTasks,
-  faChartBar,
-  faGraduationCap,
-  faFileAlt,
-  faExternalLinkAlt
-)
+import React from 'react';
+import { Helmet } from 'react-helmet';
+import Layout from '../components/Layout';
 
 const Home = () => (
   <Layout>
@@ -43,6 +18,7 @@ const Home = () => (
         rel="stylesheet"
         href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css"
       />
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
       <link href="URL" rel="canonical" />
       <link
         rel="apple-touch-icon"
@@ -119,6 +95,6 @@ const Home = () => (
       <meta name="theme-color" content="#ffffff" />
     </Helmet>
   </Layout>
-)
+);
 
-export default Home
+export default Home;

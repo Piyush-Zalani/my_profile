@@ -1,7 +1,6 @@
-import React, { useState } from "react"
-import { Col, Row } from "@bootstrap-styled/v4"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { camelCase } from "lodash"
+import React, { useState } from 'react';
+import { Col, Row } from '@bootstrap-styled/v4';
+import { camelCase } from 'lodash';
 import {
   CardContent,
   Card,
@@ -12,15 +11,17 @@ import {
   Description,
   Title,
   Image,
-} from "./style"
-import { projects } from "../../utils/constants"
+  StyledLink,
+  CardTitle,
+} from './style';
+import { projects } from '../../utils/constants';
 
 const Projects = () => {
-  const [transform, setTransform] = useState({})
+  const [transform, setTransform] = useState({});
   return (
     <Container>
       <Row>
-        {projects.map(project => (
+        {projects.map((project) => (
           <Col lg={4} sm={12} md={6} key={project.title}>
             <Card>
               <CardImage>
@@ -28,12 +29,10 @@ const Projects = () => {
               </CardImage>
               <CardContent>
                 <Title
-                  onClick={() =>
-                    setTransform({
-                      ...transform,
-                      [`is${camelCase(project.title)}Transform`]: true,
-                    })
-                  }
+                  onClick={() => setTransform({
+                    ...transform,
+                    [`is${camelCase(project.title)}Transform`]: true,
+                  })}
                 >
                   {project.title}
                   <i className="mdi-navigation-more-vert right" />
@@ -43,20 +42,18 @@ const Projects = () => {
               <CardRevel
                 transform={transform[`is${camelCase(project.title)}Transform`]}
               >
-                <span className="card-title brown-text">
+                <CardTitle className="card-title brown-text">
                   Accomplishments
                   <i
                     className="mdi-navigation-close right"
-                    onClick={() =>
-                      setTransform({
-                        ...transform,
-                        [`is${camelCase(project.title)}Transform`]: false,
-                      })
-                    }
+                    onClick={() => setTransform({
+                      ...transform,
+                      [`is${camelCase(project.title)}Transform`]: false,
+                    })}
                   />
-                </span>
+                </CardTitle>
                 <ul>
-                  {project.accomplishments.map(accomplishment => (
+                  {project.accomplishments.map((accomplishment) => (
                     <li key={`${accomplishment} ${project.title}`}>
                       <strong>{accomplishment}</strong>
                     </li>
@@ -64,13 +61,14 @@ const Projects = () => {
                 </ul>
                 <CardAction>
                   {project.url && (
-                    <a
+                    <StyledLink
                       aria-label="Visit Interpol8r web app"
                       href={project.url}
                       target="_blank"
+                      title="View Online"
                     >
-                      <FontAwesomeIcon icon="external-link-alt" />
-                    </a>
+                      <i className="fa fa-external-link" />
+                    </StyledLink>
                   )}
                 </CardAction>
               </CardRevel>
@@ -79,7 +77,7 @@ const Projects = () => {
         ))}
       </Row>
     </Container>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;

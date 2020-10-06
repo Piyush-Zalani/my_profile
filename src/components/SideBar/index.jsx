@@ -1,6 +1,6 @@
-import React from "react"
-import scrollTo from "gatsby-plugin-smoothscroll"
-import { menuItems } from "../../utils/constants"
+import React from 'react';
+import scrollTo from 'gatsby-plugin-smoothscroll';
+import { menuItems } from '../../utils/constants';
 import {
   Icon,
   StyledSpan,
@@ -11,7 +11,7 @@ import {
   Header,
   TopContent,
   NavBar,
-} from "./style"
+} from './style';
 
 class SideBar extends React.PureComponent {
   render() {
@@ -31,7 +31,7 @@ class SideBar extends React.PureComponent {
                       <Designation>Full Stack Developer</Designation>
                     </TopContent>
                   </a>
-                )
+                );
               }
               if (menuItems.length === item.id) {
                 return (
@@ -45,7 +45,7 @@ class SideBar extends React.PureComponent {
                       <StyledSpan>{item.name}</StyledSpan>
                     </StyledLink>
                   </StyledLI>
-                )
+                );
               }
               return (
                 <StyledLI key={item.id}>
@@ -57,13 +57,13 @@ class SideBar extends React.PureComponent {
                     <StyledSpan>{item.name}</StyledSpan>
                   </StyledLink>
                 </StyledLI>
-              )
+              );
             })}
           </StyledUL>
         </NavBar>
       </div>
-    )
+    );
   }
 }
 
-export default SideBar
+export default SideBar;

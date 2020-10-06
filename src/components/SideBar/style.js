@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components';
 
 const NavBar = styled.div`
   flex: 1;
@@ -10,20 +10,20 @@ const NavBar = styled.div`
   @media (max-width: 992px) {
     display: none;
   }
-`
+`;
 
 const StyledUL = styled.ul`
   list-style-type: none;
   padding-inline-start: unset;
-`
+`;
 
-const StyledLI = styled.li``
+const StyledLI = styled.li``;
 
 const TopContent = styled.div`
   padding: 40px;
   border-bottom: 1px solid #ddd;
   text-align: center;
-`
+`;
 
 const Header = styled.h1`
   font-size: 25px;
@@ -32,17 +32,17 @@ const Header = styled.h1`
   color: #008073;
   font-weight: 300;
   line-height: 30px;
-`
+`;
 
 const Designation = styled.span`
   color: #757575;
-`
+`;
 
 const StyledLink = styled.a`
   text-decoration: none;
   box-sizing: content-box;
   padding: 15px;
-  color: ${props => props.color};
+  color: ${(props) => props.color};
   padding-left: 20px;
   height: 1.5rem;
   line-height: 1.5rem;
@@ -65,18 +65,18 @@ const StyledLink = styled.a`
     background-color: #fafafa;
     border-left: 3px solid;
   }
-`
+`;
 
 const StyledSpan = styled.span`
   padding: 0 15px;
   color: #000;
-`
+`;
 
 const Icon = styled.i`
   padding: 0 15px;
   position: relative;
   top: 5px;
-`
+`;
 
 export {
   Icon,
@@ -88,4 +88,4 @@ export {
   Header,
   TopContent,
   NavBar,
-}
+};
