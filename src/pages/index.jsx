@@ -5,10 +5,10 @@ import Layout from '../components/Layout';
 const Home = () => (
   <Layout>
     <Helmet>
-      <title>Piyush Zalani</title>
-      <meta name="description" content="Piyush Zalani Portfolio" />
+      <title>Piyush Zalani | Full-Stack Front-End Developer</title>
+      <meta name="description" content="Piyush Zalani | Full-Stack Front-End Developer" />
       <meta name="theme-color" content="#008f68" />
-      <meta name="og:title" property="og:title" content="Piyush Portfolio" />
+      <meta name="og:title" property="og:title" content="Piyush Zalani | Full-Stack Front-End Developer" />
       <meta name="robots" content="index, follow" />
       <link
         href="https://fonts.googleapis.com/icon?family=Material+Icons"

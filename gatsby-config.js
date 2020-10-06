@@ -6,14 +6,15 @@
 
 module.exports = {
   /* Your site config here */
+  pathPrefix: '/portfolio',
   plugins: [
     'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-smoothscroll',
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `images`,
+        name: 'images',
         path: `${__dirname}/src/images`,
       },
     },
