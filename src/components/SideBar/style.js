@@ -70,12 +70,12 @@ const StyledLink = styled.a`
 const StyledSpan = styled.span`
   padding: 0 15px;
   color: #000;
+  position: relative;
+  bottom: 7px;
 `;
 
 const Icon = styled.i`
   padding: 0 15px;
-  position: relative;
-  top: 5px;
 `;
 
 export {
