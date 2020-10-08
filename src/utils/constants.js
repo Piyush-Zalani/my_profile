@@ -80,7 +80,7 @@ const menuItems = [
 
 const experience = [
   {
-    company: 'Cybage Softwares',
+    company: 'Cybage Software Pvt. Ltd.',
     src: cybage,
     designation: 'Full-Stack Developer (MERN)',
     accomplishments: [
@@ -98,7 +98,7 @@ const experience = [
     ],
   },
   {
-    company: 'Tudip Technologies',
+    company: 'Tudip Technologies Pvt. Ltd.',
     src: tudip,
     designation: 'Full-Stack Developer (MERN)',
     accomplishments: [
