@@ -6,7 +6,7 @@
 
 module.exports = {
   /* Your site config here */
-  pathPrefix: '/portfolio',
+  pathPrefix: '/my_profile',
   plugins: [
     'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet',

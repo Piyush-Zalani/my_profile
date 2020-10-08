@@ -20,6 +20,7 @@ const Home = () => (
       />
       <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
       <link href="URL" rel="canonical" />
+      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
       <link
         rel="apple-touch-icon"
         sizes="57x57"
@@ -89,7 +90,7 @@ const Home = () => (
         sizes="16x16"
         href="../../static/favicon/favicon-16x16.png"
       />
-      <link rel="manifest" href="/static/favicon/manifest.json" />
+      <link rel="manifest" href="../../static/favicon/manifest.json" />
       <meta name="msapplication-TileColor" content="#ffffff" />
       <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
       <meta name="theme-color" content="#ffffff" />
