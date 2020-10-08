@@ -80,20 +80,6 @@ const menuItems = [
 
 const experience = [
   {
-    company: 'Tudip Technologies',
-    src: tudip,
-    designation: 'Full-Stack Developer (MERN)',
-    accomplishments: [
-      'Involved in end to end development of the applications.',
-      'Programmed in a functional programming language with an eye toward code abstraction and reuse.',
-      'Involved in code review, debugging, bug fixing and documentation of the overall application.',
-      'Developed new components and features for our frontend app(s).',
-      'Profiled and improved our frontend performance.',
-      'Involved in requirement gathering.',
-      'Analyzed the requirements and develop Front end specific project solutions.',
-    ],
-  },
-  {
     company: 'Cybage Softwares',
     src: cybage,
     designation: 'Full-Stack Developer (MERN)',
@@ -109,6 +95,20 @@ const experience = [
       'Worked as a backend engineer to optimize existing API calls to create efficient APIs and deprecating unwanted API calls',
       'Interacted with Testing Team and Business Analysts for fixing of issues',
       'Communicated with the client to understand the requirement of various website.',
+    ],
+  },
+  {
+    company: 'Tudip Technologies',
+    src: tudip,
+    designation: 'Full-Stack Developer (MERN)',
+    accomplishments: [
+      'Involved in end to end development of the applications.',
+      'Programmed in a functional programming language with an eye toward code abstraction and reuse.',
+      'Involved in code review, debugging, bug fixing and documentation of the overall application.',
+      'Developed new components and features for our frontend app(s).',
+      'Profiled and improved our frontend performance.',
+      'Involved in requirement gathering.',
+      'Analyzed the requirements and develop Front end specific project solutions.',
     ],
   },
 ];
