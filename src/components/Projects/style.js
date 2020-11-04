@@ -84,6 +84,7 @@ const CardRevel = styled.div`
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   transform: ${(props) => `translateY(${props.transform ? '-100%' : '0px'})`};
+  transition: all 300ms;
 `;
 
 const CardAction = styled.div`
@@ -123,9 +124,7 @@ const StyledLink = styled.a`
   height: 55.5px;
   font-size: 1.6rem;
   line-height: 55.5px;
-  @media (max-width: 600px) {
-    margin: 0 auto;
-  }
+  padding-left: 3px;
 `;
 
 const CardTitle = styled.span`

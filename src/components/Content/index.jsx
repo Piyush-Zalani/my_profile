@@ -1,14 +1,15 @@
-import React from "react"
-import Section from "../Section"
-import { menuItems } from "../../utils/constants"
-import Home from "../Home"
-import Experience from "../Experience"
-import About from "../About"
-import Contact from "../Contact"
-import Skills from "../Skills"
-import Education from "../Education"
-import Projects from "../Projects"
-import { Main } from "./style"
+import React from 'react';
+import Section from '../Section';
+import { menuItems } from '../../utils/constants';
+import Home from '../Home';
+import Experience from '../Experience';
+import About from '../About';
+import Contact from '../Contact';
+import Skills from '../Skills';
+import Education from '../Education';
+import Projects from '../Projects';
+import Achievements from '../Achievements';
+import { Main } from './style';
 
 const renderComponent = {
   0: Home,
@@ -17,8 +18,9 @@ const renderComponent = {
   3: Projects,
   4: Skills,
   5: Education,
-  6: Contact,
-}
+  6: Achievements,
+  7: Contact,
+};
 
 const Content = () => (
   <Main>
@@ -29,8 +31,8 @@ const Content = () => (
           backgroundImage={item.background}
           isTop={item.id === 2}
         >
-          {renderComponent[index] &&
-            React.createElement(renderComponent[index], {
+          {renderComponent[index]
+            && React.createElement(renderComponent[index], {
               key: item.id,
               block: item,
             })}
@@ -38,6 +40,6 @@ const Content = () => (
       </div>
     ))}
   </Main>
-)
+);
 
-export default Content
+export default Content;

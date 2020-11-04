@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components';
 
 const Card = styled.div`
   position: relative;
@@ -14,7 +14,7 @@ const Card = styled.div`
   background-clip: padding-box;
   margin-bottom: 60px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-`
+`;
 
 const CardContent = styled.div`
   padding: 20px;
@@ -26,13 +26,13 @@ const CardContent = styled.div`
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding-bottom: 30px;
-`
+`;
 
 const Heading = styled.p`
   padding: 5px 0 0;
   margin: 0;
   color: inherit;
-`
+`;
 
 const Link = styled.a`
   border-bottom: 3px solid transparent;
@@ -52,30 +52,30 @@ const Link = styled.a`
     border-bottom: 3px solid #009688;
   }
   text-decoration: none;
-`
+`;
 
 const CardTitle = styled.span`
   color: #fff;
   font-size: 24px;
   font-weight: 300;
   line-height: 2.5rem;
-`
+`;
 
 const Container = styled.div`
   width: 90%;
   padding: 0 1.5rem;
   margin: 0 auto;
   max-width: 1280px;
-`
+`;
 
 const StyledRow = styled.div`
   margin-left: -0.75rem;
   margin-right: -0.75rem;
-`
+`;
 
 const Period = styled.p`
   color: #795548;
-`
+`;
 
 export {
   Period,
@@ -86,4 +86,4 @@ export {
   CardTitle,
   Heading,
   Link,
-}
+};

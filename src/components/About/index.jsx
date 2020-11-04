@@ -1,5 +1,10 @@
-import React from "react"
-import { Quote, StyledBlock, StyledUL, Wrapper } from "./style"
+import React from 'react';
+import {
+  Quote,
+  StyledBlock,
+  StyledUL,
+  Wrapper,
+} from './style';
 
 const About = () => (
   <Wrapper>
@@ -32,6 +37,6 @@ const About = () => (
       </li>
     </StyledUL>
   </Wrapper>
-)
+);
 
-export default About
+export default About;

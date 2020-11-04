@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react';
 import {
   Period,
   StyledRow,
@@ -8,7 +8,7 @@ import {
   CardTitle,
   Heading,
   Link,
-} from "./style"
+} from './style';
 
 const Education = () => (
   <Container>
@@ -30,6 +30,6 @@ const Education = () => (
       </Card>
     </StyledRow>
   </Container>
-)
+);
 
-export default Education
+export default Education;

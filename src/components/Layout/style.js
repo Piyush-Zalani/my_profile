@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from "styled-components"
+import styled, { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -16,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
     width: 100%;
     -webkit-font-smoothing: none;
   }
-`
+`;
 
 const FlexGrid = styled.div`
   display: flex;
@@ -26,7 +26,7 @@ const FlexGrid = styled.div`
   @media only screen and (max-width: 992px) {
     padding-top: 56px;
   }
-`
+`;
 
 const Nav = styled.nav`
   background-color: #fff;
@@ -43,7 +43,7 @@ const Nav = styled.nav`
     height: 56px;
     line-height: 56px;
   }
-`
+`;
 
 const NameTitle = styled.div`
   display: block;
@@ -52,7 +52,7 @@ const NameTitle = styled.div`
   text-align: center;
   width: 100%;
   position: absolute;
-`
+`;
 
 const Name = styled.a`
   font-size: 24px;
@@ -60,16 +60,24 @@ const Name = styled.a`
   position: relative;
   line-height: 27px;
   color: #008073;
-`
+`;
 
 const Designation = styled.span`
   display: block;
   font-size: 14px;
   line-height: 1;
-`
+`;
 
 const SlideOut = styled.ul`
-  width: 200px;
-`
+  width: 210px;
+`;
 
-export { SlideOut, Designation, FlexGrid, Name, NameTitle, Nav, GlobalStyle }
+export {
+  SlideOut,
+  Designation,
+  FlexGrid,
+  Name,
+  NameTitle,
+  Nav,
+  GlobalStyle,
+};

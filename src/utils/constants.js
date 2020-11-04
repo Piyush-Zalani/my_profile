@@ -66,12 +66,18 @@ const menuItems = [
   },
   {
     id: 7,
+    name: 'Achievements',
+    icon: 'mdi-action-favorite small',
+    color: '#ffeb3b',
+  },
+  {
+    id: 8,
     name: 'Contact',
     icon: 'mdi-content-mail small',
     color: '#ff9800',
   },
   {
-    id: 8,
+    id: 9,
     name: 'Resume',
     icon: 'mdi-action-description small',
     color: '#795548',
@@ -83,6 +89,9 @@ const experience = [
     company: 'Cybage Software Pvt. Ltd.',
     src: cybage,
     designation: 'Full-Stack Developer (MERN)',
+    from: 'April 2019',
+    to: 'Present',
+    location: 'Pune (MH), India',
     accomplishments: [
       'Experience in building cross-browser layouts with CSS and HTML, DOM structure.',
       'Knowledge of Object Oriented Javascript, libraries like ReactJs, Redux.',
@@ -101,6 +110,9 @@ const experience = [
     company: 'Tudip Technologies Pvt. Ltd.',
     src: tudip,
     designation: 'Full-Stack Developer (MERN)',
+    from: 'August 2016',
+    to: 'April 2019',
+    location: 'Pune (MH), India',
     accomplishments: [
       'Involved in end to end development of the applications.',
       'Programmed in a functional programming language with an eye toward code abstraction and reuse.',
@@ -289,5 +301,8 @@ const skills = {
 };
 
 export {
-  menuItems, experience, projects, skills,
+  menuItems,
+  experience,
+  projects,
+  skills,
 };

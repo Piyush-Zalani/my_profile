@@ -1,5 +1,5 @@
-import React from "react"
-import { Col } from "@bootstrap-styled/v4"
+import React from 'react';
+import { Col } from '@bootstrap-styled/v4';
 import {
   Content,
   CardContainer,
@@ -8,12 +8,14 @@ import {
   Wrapper,
   Logo,
   StyledRow,
-} from "./style"
-import { experience } from "../../utils/constants"
+  CardAction,
+  UL,
+} from './style';
+import { experience } from '../../utils/constants';
 
 const Experience = () => (
   <CardContainer>
-    {experience.map(exp => (
+    {experience.map((exp) => (
       <Wrapper key={exp.src}>
         <Content>
           <StyledRow>
@@ -24,18 +26,31 @@ const Experience = () => (
             <AlignRight sm="4">{exp.designation}</AlignRight>
           </StyledRow>
           <div>
-            <ul>
-              {exp.accomplishments.map(accomplishment => (
+            <UL>
+              {exp.accomplishments.map((accomplishment) => (
                 <li key={`${accomplishment} ${exp.company}`}>
                   {accomplishment}
                 </li>
               ))}
-            </ul>
+            </UL>
           </div>
         </Content>
+        <CardAction>
+          <span>
+            {exp.from}
+            {' '}
+            -
+            {' '}
+            {exp.to}
+            {' '}
+            |
+            {' '}
+            {exp.location}
+          </span>
+        </CardAction>
       </Wrapper>
     ))}
   </CardContainer>
-)
+);
 
-export default Experience
+export default Experience;
