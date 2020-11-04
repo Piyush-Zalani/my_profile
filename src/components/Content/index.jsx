@@ -8,7 +8,7 @@ import Contact from '../Contact';
 import Skills from '../Skills';
 import Education from '../Education';
 import Projects from '../Projects';
-import Achievements from '../Achievements';
+import Awards from '../Awards';
 import { Main } from './style';
 
 const renderComponent = {
@@ -18,7 +18,7 @@ const renderComponent = {
   3: Projects,
   4: Skills,
   5: Education,
-  6: Achievements,
+  6: Awards,
   7: Contact,
 };
 

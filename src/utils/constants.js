@@ -66,8 +66,8 @@ const menuItems = [
   },
   {
     id: 7,
-    name: 'Achievements',
-    icon: 'mdi-action-favorite small',
+    name: 'Awards',
+    icon: 'mdi-action-grade small',
     color: '#ffeb3b',
   },
   {
