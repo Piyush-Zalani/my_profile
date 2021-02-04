@@ -15,7 +15,7 @@ const About = () => (
       </Quote>
     </StyledBlock>
     <StyledUL>
-      <li>Over 4 years 1 month of experience in Front-End development.</li>
+      <li>Over 4 years 6 months of experience in Front-End development.</li>
       <li>Expertise in all phases of Software Development Life Cycle.</li>
       <li>Extensive experience as a React JS Developer.</li>
       <li>
