@@ -65,7 +65,7 @@ const Contact = () => {
         </Col>
       </StyledRow>
       <StyledRow>
-        <WrapperLink href="https://github.com/Piyush-Zalani" target="_blank">
+        <WrapperLink href="https://stackoverflow.com/users/8904424/piyush-zalani" target="_blank">
           <StyledCol sm="2">
             <i className="fa fa-stack-overflow" />
           </StyledCol>
