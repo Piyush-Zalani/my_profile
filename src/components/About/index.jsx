@@ -1,10 +1,16 @@
 import React from 'react';
+import moment from 'moment';
 import {
   Quote,
   StyledBlock,
   StyledUL,
   Wrapper,
 } from './style';
+
+const round = (num, dec) => {
+  const [sv, ev] = num.toString().split('e');
+  return Number(`${Number(`${Math.round(parseFloat(`${sv}e${dec}`))}e-${dec}`)}e${ev || 0}`);
+};
 
 const About = () => (
   <Wrapper>
@@ -15,7 +21,14 @@ const About = () => (
       </Quote>
     </StyledBlock>
     <StyledUL>
-      <li>Over 4 years 6 months of experience in Front-End development.</li>
+      <li>
+        Over
+        {' '}
+        {round(moment(new Date(), 'YYYY-MM-DD')
+          .diff(moment('2016-08-01', 'YYYY-MM-DD'), 'years', true), 1)}
+        {' '}
+        years of experience in Front-End development.
+      </li>
       <li>Expertise in all phases of Software Development Life Cycle.</li>
       <li>Extensive experience as a React JS Developer.</li>
       <li>
