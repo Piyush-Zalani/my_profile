@@ -1,7 +1,9 @@
 import backgroundImage from '../../static/home.jpg';
 import tudip from '../../static/tudip.png';
 import cybage from '../../static/cybage.jpg';
+import zensar from '../../static/zensar.png';
 import classy from '../../static/classy.png';
+import oml from '../../static/oml.png';
 import lirio from '../../static/lirio.png';
 import passionlist from '../../static/passionlist.png';
 import searchnise from '../../static/searchnise.png';
@@ -86,11 +88,32 @@ const menuItems = [
 
 const experience = [
   {
+    company: 'Zensar Technologies',
+    src: zensar,
+    designation: 'Full-Stack Developer (MERN)',
+    from: 'April 2021',
+    to: 'Present',
+    location: 'Pune (MH), India',
+    accomplishments: [
+      'Experience in building cross-browser layouts with CSS and HTML, DOM structure.',
+      'Knowledge of Object Oriented Javascript, libraries like ReactJs, Redux.',
+      'Ability to streamline releases and maintain code quality.',
+      'Comfortable working across the stack including prototyping, developing, testing and deployment.',
+      'Developed a Single Page Application module using React JS',
+      'Utilized Redux architecture to manage the UI state.',
+      'Designed, developed and tested webpages using HTML5, CSS3, Bootstrap, JavaScript, jQuery and React JS to meet accessibility and web browser standards for website',
+      'Used Object Oriented Programming concepts to develop UI components that could be reused across the Web Application',
+      'Worked as a backend engineer to optimize existing API calls to create efficient APIs and deprecating unwanted API calls',
+      'Interacted with Testing Team and Business Analysts for fixing of issues',
+      'Communicated with the client to understand the requirement of various website.',
+    ],
+  },
+  {
     company: 'Cybage Software Pvt. Ltd.',
     src: cybage,
     designation: 'Full-Stack Developer (MERN)',
     from: 'April 2019',
-    to: 'Present',
+    to: 'April 2021',
     location: 'Pune (MH), India',
     accomplishments: [
       'Experience in building cross-browser layouts with CSS and HTML, DOM structure.',
@@ -126,6 +149,18 @@ const experience = [
 ];
 
 const projects = [
+  {
+    title: 'Old Mutual Limited',
+    description: 'Old Mutual Limited (OML) is a premium African financial services group that offers a broad spectrum of financial solutions to retail and corporate customers across key markets in 14 countries.',
+    src: oml,
+    accomplishments: [
+      'Worked on cross-browser compatibility and fixed the bugs for several browsers.',
+      'Developed a Single Page Application module using React JS.',
+      'Utilized Redux architecture to manage the UI state.',
+      'Involved in end to end development of application.',
+    ],
+    url: 'https://www.oldmutual.com/',
+  },
   {
     title: 'Classy',
     description: 'Create beautifully branded fundraising pages in minutes.',
