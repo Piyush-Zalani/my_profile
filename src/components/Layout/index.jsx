@@ -52,7 +52,7 @@ class Layout extends React.Component {
               return (
                 <li key={item.id}>
                   <a
-                    href="https://drive.google.com/file/d/1ZtNjq47sf5YJqabB5vsToenCDMPeTbes/view?usp=sharing"
+                    href="https://docs.google.com/document/d/1Qjwhh3oQ82kAW4s4cW9AOA8fBNDv9t19/edit?usp=sharing&ouid=100755501973233206770&rtpof=true&sd=true"
                     target="_blank"
                   >
                     <i className="mdi-social-person small" />
