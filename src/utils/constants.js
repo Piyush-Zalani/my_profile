@@ -4,6 +4,7 @@ import cybage from '../../static/cybage.jpg';
 import zensar from '../../static/zensar.png';
 import classy from '../../static/classy.png';
 import oml from '../../static/oml.png';
+import rbros from '../../static/rbros.png';
 import lirio from '../../static/lirio.png';
 import passionlist from '../../static/passionlist.png';
 import searchnise from '../../static/searchnise.png';
@@ -29,6 +30,9 @@ import mysql from '../../static/mysql.png';
 import jira from '../../static/jira.png';
 import bitbucket from '../../static/bitbucket.png';
 import gitlab from '../../static/gitlab.png';
+import graphQL from '../../static/graphql.png';
+import stitches from '../../static/stitches.png';
+import styledcomponents from '../../static/styledcomponents.png';
 
 const menuItems = [
   {
@@ -150,6 +154,21 @@ const experience = [
 
 const projects = [
   {
+    title: 'Ritchie Bros',
+    description: 'Ritchie Bros. Auctioneers, or simply Ritchie Bros., is industrial asset disposition & management\n'
+      + 'company, selling heavy industrial equipment and trucks through live and online auctions, and\n'
+      + 'other transactional channels.',
+    src: rbros,
+    accomplishments: [
+      'Used Nx dev to generate libraries and components.',
+      'Used stitches from creating styled-components.',
+      'Used Radix UI for customized UI.',
+      'Created storybook and jest test cases.',
+      'Used cypress for end-to-end testing.',
+    ],
+    url: 'https://www.rbauction.com/',
+  },
+  {
     title: 'Old Mutual Limited',
     description: 'Old Mutual Limited (OML) is a premium African financial services group that offers a broad spectrum of financial solutions to retail and corporate customers across key markets in 14 countries.',
     src: oml,
@@ -268,6 +287,14 @@ const skills = {
       src: bulma,
       alt: 'Bulma',
     },
+    {
+      src: stitches,
+      alt: 'Stitches',
+    },
+    {
+      src: styledcomponents,
+      alt: 'Styled Components',
+    },
   ],
   Javascript: [
     {
@@ -313,6 +340,10 @@ const skills = {
     {
       src: mysql,
       alt: 'MySQL',
+    },
+    {
+      src: graphQL,
+      alt: 'GraphQL',
     },
   ],
   Other: [
