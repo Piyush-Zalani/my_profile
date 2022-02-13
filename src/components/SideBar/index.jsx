@@ -1,6 +1,6 @@
 import React from 'react';
 import scrollTo from 'gatsby-plugin-smoothscroll';
-import { menuItems } from '../../utils/constants';
+import { menuItems, RESUME } from '../../utils/constants';
 import {
   Icon,
   StyledSpan,
@@ -37,7 +37,7 @@ class SideBar extends React.PureComponent {
                 return (
                   <StyledLI key={item.id}>
                     <StyledLink
-                      href="https://drive.google.com/file/d/11ROy4RjchEi9DqqixipeldkaqisLSVoD/view?usp=sharing"
+                      href={RESUME}
                       target="_blank"
                       color={item.color}
                     >

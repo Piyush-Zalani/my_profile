@@ -366,9 +366,12 @@ const skills = {
   ],
 };
 
+const RESUME = 'https://drive.google.com/file/d/11ROy4RjchEi9DqqixipeldkaqisLSVoD/view?usp=sharing';
+
 export {
   menuItems,
   experience,
   projects,
   skills,
+  RESUME,
 };

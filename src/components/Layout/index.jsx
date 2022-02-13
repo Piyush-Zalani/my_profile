@@ -3,7 +3,7 @@ import 'materialize-css/dist/css/materialize.min.css';
 import scrollTo from 'gatsby-plugin-smoothscroll';
 import SideBar from '../SideBar';
 import Content from '../Content';
-import { menuItems } from '../../utils/constants';
+import { menuItems, RESUME } from '../../utils/constants';
 import {
   SlideOut,
   Designation,
@@ -52,7 +52,7 @@ class Layout extends React.Component {
               return (
                 <li key={item.id}>
                   <a
-                    href="https://docs.google.com/document/d/1Qjwhh3oQ82kAW4s4cW9AOA8fBNDv9t19/edit?usp=sharing&ouid=100755501973233206770&rtpof=true&sd=true"
+                    href={RESUME}
                     target="_blank"
                   >
                     <i className="mdi-social-person small" />
