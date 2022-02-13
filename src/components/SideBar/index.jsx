@@ -37,7 +37,7 @@ class SideBar extends React.PureComponent {
                 return (
                   <StyledLI key={item.id}>
                     <StyledLink
-                      href="https://docs.google.com/document/d/1Qjwhh3oQ82kAW4s4cW9AOA8fBNDv9t19/edit?usp=sharing&ouid=100755501973233206770&rtpof=true&sd=true"
+                      href="https://drive.google.com/file/d/11ROy4RjchEi9DqqixipeldkaqisLSVoD/view?usp=sharing"
                       target="_blank"
                       color={item.color}
                     >
