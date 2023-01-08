@@ -13,7 +13,6 @@ const GlobalStyle = createGlobalStyle`
     height: 100%;
   }
   body > div {
-    width: 100%;
     -webkit-font-smoothing: none;
   }
 `;

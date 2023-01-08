@@ -2,8 +2,12 @@ import backgroundImage from '../../static/home.jpg';
 import tudip from '../../static/tudip.png';
 import cybage from '../../static/cybage.jpg';
 import zensar from '../../static/zensar.png';
+import mastercard from '../../static/mastercard.png';
+import tabsquare from '../../static/tabsquare.png';
 import classy from '../../static/classy.png';
 import oml from '../../static/oml.png';
+import tabsquareAI from '../../static/tabsquareAI.png';
+import brighterion from '../../static/brighterion.png';
 import rbros from '../../static/rbros.png';
 import lirio from '../../static/lirio.png';
 import passionlist from '../../static/passionlist.png';
@@ -92,11 +96,53 @@ const menuItems = [
 
 const experience = [
   {
+    company: 'Mastercard',
+    src: mastercard,
+    designation: 'Full-Stack Developer (MERN)',
+    from: 'May 2022',
+    to: 'Present',
+    location: 'Pune (MH), India',
+    accomplishments: [
+      'Experience in building cross-browser layouts with CSS and HTML, DOM structure.',
+      'Knowledge of Object Oriented Javascript, libraries like ReactJs, Redux.',
+      'Ability to streamline releases and maintain code quality.',
+      'Comfortable working across the stack including prototyping, developing, testing and deployment.',
+      'Developed a Single Page Application module using React JS',
+      'Utilized Redux architecture to manage the UI state.',
+      'Designed, developed and tested webpages using HTML5, CSS3, Bootstrap, JavaScript, jQuery and React JS to meet accessibility and web browser standards for website',
+      'Used Object Oriented Programming concepts to develop UI components that could be reused across the Web Application',
+      'Worked as a backend engineer to optimize existing API calls to create efficient APIs and deprecating unwanted API calls',
+      'Interacted with Testing Team and Business Analysts for fixing of issues',
+      'Communicated with the client to understand the requirement of various website.',
+    ],
+  },
+  {
+    company: 'Tabsquare',
+    src: tabsquare,
+    designation: 'Full-Stack Developer (MERN)',
+    from: 'May 2022',
+    to: 'December 2022',
+    location: 'Pune (MH), India',
+    accomplishments: [
+      'Experience in building cross-browser layouts with CSS and HTML, DOM structure.',
+      'Knowledge of Object Oriented Javascript, libraries like ReactJs, Redux.',
+      'Ability to streamline releases and maintain code quality.',
+      'Comfortable working across the stack including prototyping, developing, testing and deployment.',
+      'Developed a Single Page Application module using React JS',
+      'Utilized Redux architecture to manage the UI state.',
+      'Designed, developed and tested webpages using HTML5, CSS3, Bootstrap, JavaScript, jQuery and React JS to meet accessibility and web browser standards for website',
+      'Used Object Oriented Programming concepts to develop UI components that could be reused across the Web Application',
+      'Worked as a backend engineer to optimize existing API calls to create efficient APIs and deprecating unwanted API calls',
+      'Interacted with Testing Team and Business Analysts for fixing of issues',
+      'Communicated with the client to understand the requirement of various website.',
+    ],
+  },
+  {
     company: 'Zensar Technologies',
     src: zensar,
     designation: 'Full-Stack Developer (MERN)',
     from: 'April 2021',
-    to: 'Present',
+    to: 'April 2022',
     location: 'Pune (MH), India',
     accomplishments: [
       'Experience in building cross-browser layouts with CSS and HTML, DOM structure.',
@@ -154,8 +200,35 @@ const experience = [
 
 const projects = [
   {
+    title: 'Brighterion',
+    description:
+      'Brighterion has revolutionized AI for over 20 years. Now market-ready AI can transform your business in a matter of days. Enriched with Mastercard’s global network intelligence our solutions improve your customer’s experience, while reducing financial fraud and risk. With unrivaled scalability your growth is limitless. And with powerful personalization the possibilities are endless.',
+    src: brighterion,
+    accomplishments: [
+      'Worked on cross-browser compatibility and fixed the bugs for several browsers.',
+      'Developed a Single Page Application module using React JS.',
+      'Utilized Redux architecture to manage the UI state.',
+      'Profiled and improved our frontend performance',
+    ],
+    url: 'https://brighterion.com/',
+  },
+  {
+    title: 'Tabsquare',
+    description:
+      'Think of Tabsquare as the interface between your restaurant and your customers Wherever they are - in-restaurant, at home or on the road! A full stack technology platform spanning across all customer channels, in-store & online and connecting them seamlessly to your back office operations.',
+    src: tabsquareAI,
+    accomplishments: [
+      'Worked on cross-browser compatibility and fixed the bugs for several browsers.',
+      'Developed a Single Page Application module using React JS.',
+      'Utilized Redux architecture to manage the UI state.',
+      'Profiled and improved our frontend performance',
+    ],
+    url: 'https://tabsquare.ai/',
+  },
+  {
     title: 'Ritchie Bros',
-    description: 'Ritchie Bros. Auctioneers, or simply Ritchie Bros., is industrial asset disposition & management\n'
+    description:
+      'Ritchie Bros. Auctioneers, or simply Ritchie Bros., is industrial asset disposition & management\n'
       + 'company, selling heavy industrial equipment and trucks through live and online auctions, and\n'
       + 'other transactional channels.',
     src: rbros,
@@ -170,7 +243,8 @@ const projects = [
   },
   {
     title: 'Old Mutual Limited',
-    description: 'Old Mutual Limited (OML) is a premium African financial services group that offers a broad spectrum of financial solutions to retail and corporate customers across key markets in 14 countries.',
+    description:
+      'Old Mutual Limited (OML) is a premium African financial services group that offers a broad spectrum of financial solutions to retail and corporate customers across key markets in 14 countries.',
     src: oml,
     accomplishments: [
       'Worked on cross-browser compatibility and fixed the bugs for several browsers.',
@@ -366,7 +440,7 @@ const skills = {
   ],
 };
 
-const RESUME = 'https://drive.google.com/file/d/11ROy4RjchEi9DqqixipeldkaqisLSVoD/view?usp=sharing';
+const RESUME = 'https://drive.google.com/file/d/1OGYqSrHWmWeo4Cy0aj71AxoKX2TOKoC1/view?usp=sharing';
 
 export {
   menuItems,
