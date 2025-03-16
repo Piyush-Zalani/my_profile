@@ -440,7 +440,7 @@ const skills = {
   ],
 };
 
-const RESUME = 'https://drive.google.com/file/d/1OGYqSrHWmWeo4Cy0aj71AxoKX2TOKoC1/view?usp=sharing';
+const RESUME = 'https://drive.google.com/file/d/1zJIaKoZwuTGEChRe0_DpeAHOUdRA2ssN/view?usp=share_link';
 
 export {
   menuItems,

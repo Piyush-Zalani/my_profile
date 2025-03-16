@@ -16,37 +16,35 @@ const About = () => (
   <Wrapper>
     <StyledBlock>
       <Quote>
-        Mission-driven full stack developer with a passion for thoughtful UI
-        design, collaboration, and teaching.
+        Full-Stack Developer (MERN) |  {' '}
+        {round(moment(new Date(), 'YYYY-MM-DD')
+          .diff(moment('2016-08-01', 'YYYY-MM-DD'), 'years', true), 1)}
+        {' '} Years Experience
       </Quote>
     </StyledBlock>
     <StyledUL>
+      <li>Expert in JavaScript & TypeScript with advanced proficiency in React.js, Node.js, and Next.js for building scalable applications.</li>
+      <li>Strong architectural expertise, designing microservices-based, high-performance systems that handle billions of data points daily.</li>
       <li>
-        Over
-        {' '}
-        {round(moment(new Date(), 'YYYY-MM-DD')
-          .diff(moment('2016-08-01', 'YYYY-MM-DD'), 'years', true), 1)}
-        {' '}
-        years of experience in Front-End development.
-      </li>
-      <li>Expertise in all phases of Software Development Life Cycle.</li>
-      <li>Extensive experience as a React JS Developer.</li>
-      <li>
-        Experienced in working with Redux architecture using complex
-        Object-Oriented concepts in improving the performance of the websites.
+        Database expert with MySQL, MongoDB, and PostgreSQL, optimizing queries, indexing, and schema design for scalability.
       </li>
       <li>
-        Extensive experience in developing web pages using HTML/HTML5, CSS/CSS3,
-        JavaScript, React JS, Redux, Axios, JQuery, JSON and Bootstrap.
+        Real-time data processing experience with WebSocket, Kafka, and RabbitMQ for low-latency, high-traffic applications.
       </li>
       <li>
-        Good Experience in React.js for creating interactive UI's using One-way
-        data flow, Virtual DOM, JSX concepts. Familiar with creating Custom
-        Reusable React Components.
+        Cloud-native development with AWS, Docker, and Kubernetes, ensuring high availability and fault tolerance.
       </li>
       <li>
-        Excellent communication, problem solving and planning skills with
-        ability to work independently as well as in a team.
+        CI/CD implementation using Git, Jenkins, and Docker, streamlining deployments and improving DevOps efficiency.
+      </li>
+      <li>
+        Leadership experience, mentoring teams, driving Agile methodologies, and leading architecture discussions for high-scale solutions.
+      </li>
+      <li>
+        Strong problem-solving skills, optimizing performance, reducing latency, and enhancing application security.
+      </li>
+      <li>
+        Passionate about clean code, maintainability, and scalability, ensuring long-term application success.
       </li>
     </StyledUL>
   </Wrapper>

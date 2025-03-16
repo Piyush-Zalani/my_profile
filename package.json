@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Piyush's portfolio",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
@@ -14,8 +14,7 @@
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
-  "dependencies": {
-    "@bootstrap-styled/v4": "^3.4.0",
+  "dependencies": {    "@bootstrap-styled/v4": "^3.4.0",
     "babel-plugin-styled-components": "^1.11.1",
     "gatsby": "^2.24.50",
     "gatsby-plugin-react-helmet": "^3.3.12",
